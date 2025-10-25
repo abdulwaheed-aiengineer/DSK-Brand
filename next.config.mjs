@@ -9,8 +9,8 @@ const nextConfig = {
   },
   trailingSlash: true,
   // Serve under /DSK-Brand for GitHub Pages project site
-  basePath: isProd ? `/${repoName}` : undefined,
-  assetPrefix: isProd ? `/${repoName}/` : undefined,
+  basePath: `/${repoName}`,
+  assetPrefix: `/${repoName}/`,
 }
 
 export default nextConfig
